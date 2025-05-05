@@ -1,0 +1,140 @@
+body { 
+    background-color: pink;
+    color: darkblue;
+    font-family: Arial;
+  }
+    
+    
+    .pagina {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .titulo-principal {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+    width: 800px;
+    height: 60px;
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+    
+    
+    
+    
+  }
+  
+  .bloco-titulo {
+    background-color: purple;
+    color: black;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 10px 8px 12px black;
+  }
+  
+  .caixinha {
+    background-color: white;
+    color: darkblue;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    box-shadow: 10px 8px 12px black;
+  }
+  
+  .caixinha ul {
+    margin-left: 20px;
+  }
+  
+  .fotos-robo img {
+    width: 500px;
+    display: flex;
+    margin: 10px auto 25px auto;
+    border-radius: 8px;
+    border: solid 5px black;
+    
+  }
+  
+  .fotos-duas img {
+    width: 200px;
+    display: block;
+    margin: 0 auto 15px auto;
+    border-radius: 8px;
+  }
+  
+  .fotos-lado img {
+    width: 200px;
+    display: block;
+    margin: 0 auto 15px auto;
+    border-radius: 9px;
+    align-items: left;
+    justify-content: left;
+    display: flex;
+    height: 170px;
+    margin: 0;
+    border-radius: 50%;
+    margin-top: 25px;
+    border: solid black;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: black;       
+    color: white;                
+    border: 1px solid black;
+    border-radius: 6px;
+    box-shadow: 4px 4px 12px black;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 14px;
+  }
+  
+  .container{
+    display: flex;
+    justify-content: flex-end;
+    height: 200px;
+    margin-top: -200px;
+  }
+    
+  .foto_premio{
+    width: 300px;
+    align-itens: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    border: solid black 5px;
+    
+    
+  }
+    
+  .fade-in{
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+    
+  
+  
+      
+      
