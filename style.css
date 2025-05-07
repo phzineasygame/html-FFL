@@ -140,12 +140,12 @@ body {
   margin-top: 20px;
   flex-wrap: wrap;
   justify-content: center;
-  width: 300px;
+  width: 400px;
   border: solid black;
 }
 
 .fotos-depoimento img {
-  width: 300px; 
+  width: 400px; 
   height: 150px; 
   border-radius: 8px;
   object-fit: cover; 
