@@ -146,7 +146,7 @@ body {
 }
 
 .fotos-depoimento img { 
-  height: 150px; 
+  height: 250px; 
   border-radius: 8px;
   object-fit: cover; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
